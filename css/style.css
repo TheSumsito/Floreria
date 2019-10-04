@@ -1,0 +1,150 @@
+/* ------------------------ IMPORTS ------------------------ */
+@import 'https://fonts.googleapis.com/css?family=Ubuntu&display=swap';
+/* --------------------------------------------------------- */
+
+/* ------------------------ VARIABLES CSS ------------------------ */
+:root {
+    --white: #f9f9f9;
+    --green: #5cb85c;
+    --link: #cccaca;
+    --blue:#428bca;
+    --grey: #757575;
+}
+/* --------------------------------------------------------------- */
+
+/* CAMBIOS GENERALES */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* -------------------------------------------------------------- */
+
+/* ------------- COMPLEMENTOS : MENU.PHP ----------- */
+/* ----------------- MENU -----------------------*/
+.container-menu {
+    display: grid;
+    background-color: var(--green);
+    padding: 10px;
+}
+
+.menu {
+    float: left;
+    position: relative;
+    margin: auto;
+
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--white);
+    display: block;
+    padding: 10px 15px;
+}
+
+.menu li a:hover {
+    color: var(--link);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.menu > li {
+    float: left;
+}
+
+.submenu {
+    display: none;
+}
+
+.menu li:hover .submenu {
+    display: block;
+    min-width: 140px;
+    position: absolute;
+    background-color: var(--green);
+    padding: 10px 20px;
+}
+
+.submenu li a:hover {
+    color: var(--link);
+}
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+
+
+/* ------------------- / : INDEX.PHP ---------------------------- */
+/* ------------------------ CONTAINER CAROUSEL ------------------ */
+.container-img {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.container-img img {
+    max-width: 100%;
+    grid-column: 1/-1;
+    left: 80%;
+}
+
+.container-img .descripcion-img {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    text-align: center;
+}
+
+.container-img .descripcion-img h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--green);
+    text-shadow: -4px 4px 0 #000;
+    font-size: 80px;
+}
+
+.container-img .descripcion-img hr {
+    border: 2px solid var(--green);
+}
+
+.container-img .descripcion-img h2 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--grey);
+    text-shadow: -2px 3px 0 #000;
+    font-size: 50px;
+}
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+
+/* --------------------- PAGINA : ROSAS.PHP --------------------- */
+.container-titulo {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.titulo {
+    grid-column: 2/6;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titulo h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.titulo hr {
+    border: 1px solid #000;
+    margin: 20px;
+}
+
+
+
+
+
+
+/* -------------------------------------------------------------- */
+
+

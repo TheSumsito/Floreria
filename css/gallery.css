@@ -1,0 +1,178 @@
+/* ------------------------ IMPORTS ------------------------ */
+@import 'https://fonts.googleapis.com/css?family=Ubuntu&display=swap';
+/* --------------------------------------------------------- */
+:root {
+    --white: #f9f9f9;
+    --green: #5cb85c;
+    --link: #cccaca;
+    --blue:#428bca;
+    --grey: #757575;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-gallery {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.foto-1 {
+    grid-column: 2/4;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.foto-1 img {
+    max-width: 100%;
+    border: 1px solid #000;
+}
+
+.foto-1 img:hover {
+    filter: brightness(.7);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.foto-2 {
+    grid-column: 4/6;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.foto-2 img {
+    max-width: 100%;
+    border: 1px solid #000;
+}
+
+.foto-2 img:hover {
+    filter: brightness(.7);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.foto-3 {
+    grid-column: 6/8;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.foto-3 img {
+    max-width: 100%;
+    border: 1px solid #000;
+}
+
+.foto-3 img:hover {
+    filter: brightness(.7);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.foto-4 {
+    grid-column: 8/10;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.foto-4 img {
+    max-width: 100%;
+    border: 1px solid #000;
+}
+
+.foto-4 img:hover {
+    filter: brightness(.7);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.descripcion {
+    background-color: var(--grey);
+    border: 1px solid #000;
+    margin-top: -5px;
+    margin-right: -2px;
+    padding: 10px;
+}
+
+.descripcion h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.descripcion p {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+
+
+.acercar {
+    visibility: hidden;
+}
+
+.acercar:target {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s;
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen {
+    width: 32%;
+    height: 50%;
+    position: absolute;
+    right: 33%;
+    top: 20%;
+    text-align: center;
+}
+
+.imagen img {
+    width: 500px;
+}
+
+.imagen img:hover {
+    filter: none;
+}
+
+.cerrar {
+    position: relative;
+    top: 77%;
+    left: 50%;
+}
+
+.cerrar a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    line-height: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cerrar a:hover {
+    background-color: var(--green);
+    color:white;
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+
