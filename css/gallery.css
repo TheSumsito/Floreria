@@ -1,6 +1,8 @@
 /* ------------------------ IMPORTS ------------------------ */
 @import 'https://fonts.googleapis.com/css?family=Ubuntu&display=swap';
 /* --------------------------------------------------------- */
+
+/* ---------------------- VARIABLES ------------------------ */
 :root {
     --white: #f9f9f9;
     --green: #5cb85c;
@@ -8,13 +10,17 @@
     --blue:#428bca;
     --grey: #757575;
 }
+/* --------------------------------------------------------- */
 
-
+/* -------------------- CAMBIOS GENERALES ------------------ */
 * {
     padding: 0px;
     margin: 0px;
 }
+/* --------------------------------------------------------- */
 
+
+/* ---------------- CONTAINER IMAGENES FIJAS --------------- */ 
 .container-gallery {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -96,6 +102,9 @@
     -o-transition: 0.5s ease;
 }
 
+/* --------------------------------------------------------- */
+
+/* --------------- DESCRIPCION ARREGLO (ROSAS) ------------- */
 .descripcion {
     background-color: var(--grey);
     border: 1px solid #000;
@@ -113,9 +122,9 @@
     font-family: 'Ubuntu', sans-serif;
     color: white;
 }
+/* --------------------------------------------------------- */
 
-
-
+/* ----------------- EFECTOS (ACERCAR IMAGEN --------------- */
 .acercar {
     visibility: hidden;
 }
@@ -175,4 +184,4 @@
     -moz-transition: 0.2s ease;
     -o-transition: 0.2s ease;
 }
-
+/* --------------------------------------------------------- */
