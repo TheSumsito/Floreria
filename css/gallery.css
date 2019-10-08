@@ -42,10 +42,6 @@
 
 .foto-1 img:hover {
     filter: brightness(.7);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
 }
 
 .foto-2 {
@@ -64,10 +60,6 @@
 
 .foto-2 img:hover {
     filter: brightness(.7);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
 }
 
 .foto-3 {
@@ -86,10 +78,6 @@
 
 .foto-3 img:hover {
     filter: brightness(.7);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
 }
 
 .foto-4 {
@@ -108,10 +96,6 @@
 
 .foto-4 img:hover {
     filter: brightness(.7);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
 }
 
 /* --------------------------------------------------------- */
@@ -191,9 +175,5 @@
 .cerrar a:hover {
     background-color: var(--green);
     color:white;
-    transition: 0.2s ease;
-    -webkit-transition: 0.2s ease;
-    -moz-transition: 0.2s ease;
-    -o-transition: 0.2s ease;
 }
 /* --------------------------------------------------------- */
