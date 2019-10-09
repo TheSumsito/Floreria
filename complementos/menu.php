@@ -16,12 +16,12 @@
                 <ul class="submenu">
                     <li><a href="arreglos.php">Arreglos</a></li>
                     <li><a href="ramos.php">Ramos</a></li>
-                    <li><a href="">Regalos</a></li>
-                    <li><a href="">Aniversarios</a></li>
-                    <li><a href="">Nacimientos</a></li>
+                    <li><a href="regalos.php">Regalos</a></li>
+                    <li><a href="aniversario.php">Aniversarios</a></li>
+                    <li><a href="nacimiento.php">Nacimientos</a></li>
                 </ul>
             </li>
-            <li><a href="">Contactenos</a></li>
+            <li><a href="contacto.php">Contactenos</a></li>
             <li><a href="">Iniciar Sesion</a></li>
         </ul>
     </div>

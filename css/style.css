@@ -61,6 +61,7 @@
 
 .submenu {
     display: none;
+    z-index: 10;
 }
 
 .menu li:hover .submenu {
@@ -118,7 +119,7 @@
 /* -------------------------------------------------------------- */
 /* -------------------------------------------------------------- */
 
-/* --------------------- PAGINA : ROSAS.PHP --------------------- */
+/* --------------------- TITULOS --------------------- */
 .container-titulo {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -134,18 +135,154 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
     margin: 20px;
+    color: var(--green);
+    text-shadow: 3px  0px 0px black;
 }
 
 .titulo hr {
-    border: 1px solid #000;
+    border: 1px solid var(--green);
     margin: 20px;
 }
-
-
-
-
-
-
 /* -------------------------------------------------------------- */
 
 
+/* ----------------------- CONTACTO ----------------------------- */
+.container-contacto {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(11, 60px);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container-contacto .titulo {
+    grid-column: 4/7;
+    grid-row: 1/1;
+    position: relative;
+    text-align: center;
+}
+
+
+.container-contacto .nombre {
+    grid-column: 3/6;
+    grid-row: 3/3;
+    position: relative;
+    top: 20px;
+}
+
+.nombre h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nombre input {
+    margin-top: 20px;
+    box-sizing: content-box;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-contacto .apellido {
+    grid-column: 3/-1;
+    grid-row: 3/3;
+    position: relative;
+    top: 20px;
+}
+
+.apellido h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.apellido input {
+    margin-top: 20px;
+    box-sizing: content-box;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-contacto .telefono {
+    grid-column: 3/6;
+    grid-row: 4/5;
+    margin: 40px;
+    position: relative;
+    top: 20px;
+}
+
+.telefono h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.telefono input {
+    margin-top: 20px;
+    box-sizing: content-box;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-contacto .correo {
+    grid-column: 3/-1;
+    grid-row: 4/5;
+    margin: 40px;
+    position: relative;
+    top: 20px;
+}
+
+.correo h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.correo input {
+    margin-top: 20px;
+    box-sizing: content-box;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-contacto .mensaje {
+    grid-column: 4/7;
+    grid-row: 5/6;
+    margin: 80px;
+    position: relative;
+    top: 20px;
+}
+
+.mensaje h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mensaje textarea {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-contacto .boton-enviar {
+    grid-column: 4/7;
+    grid-row: 9/9;
+    position: relative;
+    top: 20px;
+}
+
+.container-contacto .boton-enviar input {
+    font-family: 'Ubuntu', sans-serif;
+    width: 80px;
+    height: 30px;
+}
+
+.container-contacto .boton-enviar input:hover {
+    color: white;
+    background-color: var(--green);
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    border: 2px solid var(--green);
+}
+/* -------------------------------------------------------------- */
